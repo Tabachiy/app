@@ -1,0 +1,79 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "20C6A03200"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "J9ET37WW (1.16 )"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "60",
+    "Stepping": "3",
+    "Name": "Intel(R) Core(TM) i3-4000M CPU @ 2.40GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0416"
+    }
+  ],
+  "RAM": 16.1,
+  "Partitions": [
+    960.4
+  ],
+  "Screens": [
+    {
+      "Size": "344mmx194mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.01"
+    },
+    {
+      "Size": "475mmx267mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "ru_RU",
+  "Timezone": "America/New_York",
+  "Install": {
+    "Media": "Ubuntu 18.04.1 LTS \"Bionic Beaver\" - Release amd64 (20180725)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "ru",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "24": "console_setup",
+      "30": "console_setup",
+      "34": "wireless",
+      "115": "prepare",
+      "218": "partman",
+      "264": "start_install",
+      "309": "timezone",
+      "598": "usersetup",
+      "683": "user_done",
+      "1319": "done"
+    }
+  }
+}
